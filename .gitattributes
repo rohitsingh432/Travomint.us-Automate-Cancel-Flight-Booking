@@ -1,0 +1,8 @@
+# Force GitHub to recognize Java as the primary language
+*.java linguist-detectable=true
+*.xml linguist-detectable=true
+*.jar linguist-generated
+
+git add .gitattributes
+git commit -m "Set Java as the primary language"
+git push origin main
